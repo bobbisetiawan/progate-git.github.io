@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-container{
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.main{
+    background-image: url(../img/universitas.jpg);
+    background-size: cover;
+    width: 100%;
+
+    color: white;
+}
+
+.main h1{
+    font-size: 45px;
+    letter-spacing: 6px;
+}
+
+.main h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+
+.main p{
+    margin-top: 20px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.bg-main{
+    background-color: rgba(54, 54, 54, 0.8);
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.main-content p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-indent: 0;
+    margin: 20px 0 0 0;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.main-content a{
+    color: white;
+}
+
+.main-btn{
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+    box-shadow: 3px 4px rgba(255, 255, 255, 0.7);
+}
+
+.main-facebook{
+    background-color: rgba(59, 89, 152, 0.8);
+}
+
+.main-twitter{
+    background-color: rgba(85, 172, 238, 0.8);
+    float: center;
+    margin: 0 20px;
+}
+
+.main-instagram{
+    background-color: rgba(193, 53, 132, 0.8);
+}
+
+.main-btn:hover{
+    color: white;
+    background-color: rgba(0, 13, 255, 0.8);
+}
+
+.main-btn:active{
+    position: relative;
+    left: 4px;
+    top: 3px;
+    color: white;
+    box-shadow: none;
+}
+
+.main-daftar{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main-daftar a{
+    color: rgb(0, 0, 0);
+}
+
+.main-btn-daftar{
+    background-color: rgba(92, 187, 92, 0.8);
+}
