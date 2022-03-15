@@ -1,0 +1,43 @@
+/* untuk tablet: max-width = 1000 px */
+@media(max-width: 1001px){
+    .main-container{
+        max-width: 650px;
+        text-align: center;
+    }
+
+    .main h1{
+        letter-spacing: 1px;
+    }
+
+    .main-instagram{
+        margin-top: 15px;
+    }
+
+    .main-daftar{
+        margin-top: 50px;
+    }
+}
+
+/* untuk smartphone: max-width = 670 px */
+@media(max-width: 671px){
+    .main-container{
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .main h1{
+        font-size: 25px;
+    }
+
+    .main h5{
+        font-size: 18px;
+    }
+
+    .main-btn{
+        width: 350px;
+    }
+
+    .main-facebook{
+        margin-bottom: 15px;
+    }
+}
