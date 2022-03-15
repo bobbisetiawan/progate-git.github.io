@@ -78,6 +78,25 @@ a{
     box-shadow: 3px 4px rgba(255, 255, 255, 0.7);
 }
 
+@keyframes main-btn-animation{
+    0%{
+        border-radius: 25%;
+        background-color: rgba(0, 13, 255, 0.8);
+    }
+    25%{
+        border-radius: 50%;
+        background-color: rgba(0, 13, 255, 0.8);
+    }
+    50%{
+        border-radius: 75%;
+        background-color: rgba(0, 13, 255, 0.8);
+    }
+    75%{
+        border-radius: 0%;
+        background-color: rgba(0, 13, 255, 0.8);
+    }
+}
+
 .main-facebook{
     background-color: rgba(59, 89, 152, 0.8);
 }
@@ -94,7 +113,10 @@ a{
 
 .main-btn:hover{
     color: white;
-    background-color: rgba(0, 13, 255, 0.8);
+
+    animation-name: main-btn-animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
 .main-btn:active{
