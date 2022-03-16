@@ -1,5 +1,6 @@
 /* untuk tablet: max-width = 1000 px */
 @media(max-width: 1001px){
+    /* main */
     .main-container{
         max-width: 650px;
         text-align: center;
@@ -16,10 +17,119 @@
     .main-daftar{
         margin-top: 50px;
     }
+
+    /* body 2 */
+    .body2-fasilitas-wrapper .body2-fasilitas {
+        width: 50%;
+    }
+
+    .body2-fasilitas-wrapper {
+        margin: 0 20px;
+    }
+
+    .fasilitas-txt-title {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .body2-btn-fasilitas {
+        float: right;
+    }
+
+    .body2-heading {
+        font-size: 28px;
+    }
+
+    .fasilitas-icon img {
+        width: 50%;
+        margin: -10px 0;
+    }
+
+
+
+    .body2-alumni-wrapper {
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .body2-alumni-wrapper {
+        height: 850px;
+    }
+
+    .alumni-icon img {
+        padding: 0px 30px;
+    }
+
+    .body2-btn-alumni {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .body2-btn-fasilitas {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .body2-btn-beasiswa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body2-beasiswa {
+        width: 50%;
+    }
+
+    .body2-beasiswa img {
+        width: 80%;
+        height: 40%;
+    }
+
+    .body2-btn-beasiswa {
+        float: right;
+    }
+
+    .body2-beasiswa-wrapper {
+        margin: 20px 20px;
+    }
 }
 
 /* untuk smartphone: max-width = 670 px */
 @media(max-width: 671px){
+    /* header */
+    .header-list{
+        padding: 5px;
+        padding-right: 3px;
+        display: inline;
+        float: left;
+        margin: 2px;
+    }
+    .header-logo{
+        width:100%;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+    header{
+        display: block;
+        width: 100%;
+    }
+    .header-list ul{
+        padding-right: 55px;
+        
+    }
+    .header-list li{
+        line-height: 40px;
+        display: inline;
+        text-align: center;
+    }
+    .headir-list a{
+        padding: 40px;
+    }
+
+    /* main */
     .main-container{
         max-width: 400px;
         text-align: center;
@@ -39,5 +149,82 @@
 
     .main-facebook{
         margin-bottom: 15px;
+    }
+
+    /* body 2 */
+    .body2-fasilitas-wrapper .body2-fasilitas {
+        width: 100%;
+    }
+
+    .fasilitas-icon img {
+        width: 100%;
+        margin: -10px 0;
+    }
+
+    .alumni-icon img {
+        width: 100%;
+        margin: -10px 0;
+    }
+
+    .body2-heading {
+        font-size: 26px;
+    }
+
+    .body2-fasilitas-wrapper {
+        margin: 0 20px;
+    }
+
+    .fasilitas-txt-title {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .body2-btn-fasilitas {
+        float: right;
+    }
+
+    .body2-alumni-wrapper {
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .body2-alumni-wrapper {
+        height: 850px;
+    }
+
+    .alumni-txt-context {
+        font-size: 15px;
+    }
+
+    .body2-btn-alumni {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body2-btn-fasilitas {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body2-btn-beasiswa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body2-beasiswa {
+        width: 100%;
+    }
+
+    .body2-beasiswa img {
+        width: 80%;
+        height: 40%;
+    }
+
+    .body2-btn-beasiswa {
+        float: right;
+    }
+
+    .body2-beasiswa-wrapper {
+        margin: 20px 20px;
     }
 }
